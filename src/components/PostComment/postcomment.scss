@@ -1,0 +1,51 @@
+.postcomment {
+  display: flex;
+
+  align-items: center;
+  width: 100%;
+  padding: 0px 0px 0px 20px;
+
+  position: relative;
+
+  &--detail {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    width: 100%;
+
+    &--nh {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      margin: 5px 0px;
+
+      &--title {
+        color: #0e0e0e;
+        font-size: 14px;
+      }
+
+      &--hour {
+        color: gray;
+        font-size: 12px;
+
+        margin-top: 3px;
+        margin-right: 10px;
+      }
+    }
+
+    &--body {
+      font-size: 14px;
+      color: #a0a0a0;
+      margin: 5px 0px;
+    }
+  }
+
+  transition: all 0.2s;
+
+  &:hover {
+    background: rgba(209, 209, 209, 0.74);
+  }
+}
